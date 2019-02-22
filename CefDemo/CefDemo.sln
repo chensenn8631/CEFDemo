@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CefDemo", "CefDemo\CefDemo.vcxproj", "{2B9E60CA-321B-47EA-B10C-E3CF3849B224}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0807A50D-53CA-412D-B942-C8B4733B80C1} = {0807A50D-53CA-412D-B942-C8B4733B80C1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "DuiLib\DuiLib.vcxproj", "{0807A50D-53CA-412D-B942-C8B4733B80C1}"
 EndProject
